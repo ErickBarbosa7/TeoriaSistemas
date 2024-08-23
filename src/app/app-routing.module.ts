@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UTMComponent } from './UTM/UTM.component';
 import { PYComponent } from './PY/PY.component';
+import { UTMComponent } from './UTM/UTM.component';
 
 const routes: Routes = [
   { path: 'utm', component: UTMComponent },
